@@ -4,7 +4,7 @@ A batch image-processing project comparing CPU processing with custom CUDA GPU k
 
 ## Project Overview
 
-This project processes 10,000 CIFAR-10 test images (32 × 32 pixels) using four operations:
+This project processes 10,000 CIFAR-10 test images (32 Ã— 32 pixels) using four operations:
 
 - RGB to Grayscale
 - Brightness Adjustment (+40)
@@ -21,24 +21,7 @@ The project compares CPU execution time with CUDA GPU kernel time and GPU end-to
 - NVIDIA CUDA Toolkit
 - Matplotlib
 
-## Project Structure
 
-\\\	ext
-cifar10_cuda_project/
-+-- data/                   # Dataset and binary input files (not committed)
-+-- output/                 # Generated CPU and GPU outputs (not committed)
-+-- results/
-¦   +-- cpu_benchmark.csv
-¦   +-- performance.csv
-¦   +-- cpu_vs_gpu.png
-¦   +-- gpu_speedup.png
-+-- cpu_processing.py
-+-- cpu_benchmark.py
-+-- cuda_processing.cu
-+-- cuda_benchmark.cu
-+-- .gitignore
-+-- README.md
-\\\
 
 ## Benchmark Results
 
