@@ -1,0 +1,20 @@
+# Dataset files
+data/*.npy
+data/*.bin
+
+# Generated output arrays
+output/*.npy
+output/*.bin
+
+# Compiled CUDA executables
+cuda_processing
+cuda_benchmark
+*.exe
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
